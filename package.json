@@ -1,0 +1,7 @@
+{
+  "name": "hello-node",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ../server && npm install --only=production && cd .. && docker build ."
+  }
+}
